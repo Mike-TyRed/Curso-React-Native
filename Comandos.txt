@@ -1,0 +1,8 @@
+Crear proyecto nuevo:
+	react-native init (nombre)
+
+Ejecutar proyecto Android
+	npx react-native run-android
+
+La propiedad 'this' es bastante compleja para trabajarla en javascript, en algunas ocasiones cambia tan rápido de contexto que nunca sabes lo que realmente es el valor de 
+'this', con el bind, lo que haces es asegurar el contexto de cada una de las funciones ya que le haces un scope a la clase en donde se lo asignas
