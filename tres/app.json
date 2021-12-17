@@ -1,4 +1,11 @@
 {
   "name": "tres",
-  "displayName": "tres"
+  "displayName": "tres",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Orchid",
+    "LightSkyBlue"
+]
 }

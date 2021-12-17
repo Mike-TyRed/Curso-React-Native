@@ -4,5 +4,40 @@ Crear proyecto nuevo:
 Ejecutar proyecto Android
 	npx react-native run-android
 
-La propiedad 'this' es bastante compleja para trabajarla en javascript, en algunas ocasiones cambia tan rápido de contexto que nunca sabes lo que realmente es el valor de 
-'this', con el bind, lo que haces es asegurar el contexto de cada una de las funciones ya que le haces un scope a la clase en donde se lo asignas
+La propiedad 'this' es bastante compleja para trabajarla en javascript, en algunas ocasiones 
+cambia tan rápido de contexto que nunca sabes lo que realmente es el valor de 
+'this', con el bind, lo que haces es asegurar el contexto de cada una de las funciones ya que le
+ haces un scope a la clase en donde se lo asignas
+
+Test
+Contiene todos los test que se realizan en la app
+
+Mocks
+Ayuda para poner datos de prueba en la app (tests)
+
+App
+Contiene folders con funciones específicas
+	
+API
+todas las configuraciones de librerías para hacer peticiones a los sv o apis
+
+Assets
+almacena íconos y diseños
+
+components
+poner componentes reutilizables
+
+settings
+configuraciones de la app (identificadores)
+
+navigator
+configuración navegación de pantallas
+
+libs
+archivos de java script (funcines custom)
+
+views
+contiene los módulos o pantallas con las que se trabaje
+
+store
+configuración del redux (actividades)

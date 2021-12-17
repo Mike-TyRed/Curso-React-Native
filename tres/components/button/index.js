@@ -13,15 +13,6 @@ class ButtonCustom extends Component {
   }
 }
 
-/* function ButtonCustom(props) {
-    const {label, action} = props;
-    return(
-        <TouchableOpacity style={styles.btn} onPress={action}>
-            <Text style={styles.btnTxt}>{label}</Text>
-        </TouchableOpacity>
-  );
-} */
-
 ButtonCustom.propTypes = {
   label: propTypes.string.isRequired,
   action: propTypes.func,
